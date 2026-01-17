@@ -1,0 +1,32 @@
+[project]
+name = "scalator"
+version = "0.1.0"
+description = "Create scales by density"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [
+    { name = "Fiona Kerlin", email = "firina@gmx.net" },
+]
+maintainers = [
+    { name = "Fiona Kerlin", email = "firina@gmx.net" },
+]
+license = "BSD"
+keywords = ["stippling", "voronoi", "scales"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: BSD",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: graphical :: Blender"
+]
+dependencies = [
+    "tqdm>=4.67.1",
+    "numpy>=2.4.1",
+    "scipy>=1.17.0",
+    "matplotlib>=3.10.8",
+    "shapely>=2.1.2",
+    "imageio>=2.37.2",
+]

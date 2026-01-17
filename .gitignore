@@ -1,0 +1,4 @@
+.python-version
+refs/*
+uv.lock
+.venv
